@@ -1,0 +1,61 @@
+/* GENERAL */
+.about{
+    background-image: url(../img/emilia-about.jpg);
+    background-size: 75% 790px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    font-family: 'Open Sans';
+}
+/* MENU */
+.about .menu .links{
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: right;
+}
+.about .menu ul.links li{
+    list-style: none;
+    display: inline;
+}
+.about .menu ul.links li a{
+    text-decoration: none;
+    color: black;
+}
+.about .menu ul.icons a :hover{
+    color: red;
+}
+.about .menu ul i{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black
+}
+.about .menu ul.icons{
+    padding-bottom: 20px;
+    text-align: right;
+    text-decoration: none;
+    color: black;
+}
+/* MAIN */
+.about .emilia h1{
+    font-family: Raleway;
+    font-size: 70px;
+    margin-top: 50px;
+    width: 30%;
+}
+.about .emilia .comentario{
+    font-size: 28px;
+    margin-left: 40px;
+    font-family: Raleway;
+    color: turquoise;
+    margin-top: 70px;
+}
+.about .emilia .autor{
+    margin-left: 40px;
+    font-weight: 600;
+    font-family: Raleway;
+    color: turquoise;  
+}
+.about h2, .about h1, .about .menu ul li{
+    text-transform: uppercase;
+}

@@ -1,0 +1,55 @@
+/* GENERAL */
+a{
+    text-decoration: none;
+    color: black
+}
+li{
+    list-style: none;
+}
+/* IMAGEN */
+
+.home{
+    background-image: url('../img/emilia-home.jpg');
+    background-size: 75% 790px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    font-family: Open Sans;
+}
+
+/* MENU */
+.home .menu ul{
+    line-height: 30px;
+}
+/* ICONS */
+.home .icons{
+    margin-left: 35px;
+}
+.home .icons i{
+    margin-left: 2px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black
+}
+.home .icons a :hover{
+    color: red;
+}
+/* TITULOS */
+.home h2{
+    font-family: Work Sans;
+    font-weight: 300;
+    letter-spacing: 5px;
+    margin-top: 100px;
+    font-size: 35px;
+    margin-left: 40px;
+    width: 166px;
+}
+.home h1{
+    margin-top: 190px;
+    font-family: Raleway;
+    font-size: 78px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.home h2, .home h1, .home .menu ul li{
+    text-transform: uppercase;
+}
